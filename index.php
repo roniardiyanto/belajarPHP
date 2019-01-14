@@ -1,4 +1,4 @@
-[B<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -8,8 +8,7 @@
 </head>
 <body>
     <?php 
-    echo "Hello World";
-    php
-<h2>Indonesiaku</h2>
+    echo "Aku Belajar PHP!"
+    ?>
 </body>
 </html>
