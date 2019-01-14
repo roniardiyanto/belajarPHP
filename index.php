@@ -8,7 +8,8 @@
 </head>
 <body>
     <?php 
-    echo "Aku Belajar PHP!"
+    echo "Aku Belajar PHP!";
     ?>
+    <p>Halo dunia</p>
 </body>
 </html>
