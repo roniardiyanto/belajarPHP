@@ -9,8 +9,10 @@
 <body>
     <?php
     $inistring = "Nama saya, Roni Ardiyanto";
-    //menghitung jumlah kata
-    echo strlen($inistring);
+    //menghitung jumlah huruf
+    echo strlen($inistring) . "<br>";
+    //mengitung jumlah kata
+    echo str_word_count($inistring);
     ?>
 </body>
 </html>
