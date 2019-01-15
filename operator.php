@@ -10,6 +10,7 @@
     <?php 
     $angka1 = 34;
     $angka2 = 15.6;
+    $angka3 = 120;
     //tambah
     echo $angka1 + $angka2 . "<br>" ;
     //kurang
@@ -18,6 +19,8 @@
     echo $angka1 * $angka2 . "<br>";
     //bagi
     echo $angka1 / $angka2 . "<br>";
+    //tambah dan dikali
+    echo $angka1 + a$angka2 * $angka3 . "<br>";
     ?>
 </body>
 </html>
