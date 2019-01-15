@@ -8,11 +8,12 @@
 </head>
 <body>
     <?php
-    $inistring = "Nama saya, Roni Ardiyanto";
-    //menghitung jumlah huruf
-    echo strlen($inistring) . "<br>";
-    //mengitung jumlah kata
-    echo str_word_count($inistring);
+    //dua cara  menyimpan array
+    $hewan = array('gajah', 'elang', 'kerbau');
+    $bunga = ['mawar', 'melati', 'anggrek'];
+    //pemanggilan array
+    echo $hewan[2] . "<br>";
+    echo $bunga[0] . "<br>";
     ?>
 </body>
 </html>
