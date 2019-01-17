@@ -8,12 +8,14 @@
 </head>
 <body>
     <?php
-    //dua cara  menyimpan array
-    $hewan = array('gajah', 'elang', 'kerbau');
-    $bunga = ['mawar', 'melati', 'anggrek'];
-    //pemanggilan array
-    echo $hewan[2] . "<br>";
-    echo $bunga[0] . "<br>";
+    // Associative array yaitu mengganti index pemanggilan di array
+    $dataDiri = [
+                "nama" => "Roni Ardiyanto", 
+                "umur" => 17, 
+                "Pekerjaan" => "Pelajar",
+    ];
+    print_r($dataDiri);
+    echo $dataDiri['nama'];
     ?>
 </body>
 </html>
