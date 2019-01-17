@@ -15,12 +15,18 @@
                 "Pekerjaan" => "Pelajar",
     ];
     print_r($dataDiri) ; 
-    echo "Sebelum menggunakan metode array_values" . "<br>" ;
+    echo "Sebelum menggunakan metode array_values dan array_keys" . "<br>" ;
     
 
     //metode assosiatif array yang mengubah index pemanggilan array ke default yaitu berupa angka
     print_r(array_values($dataDiri)) . "<br>";
-    echo "Sesudah menggunakan metode array_values" ;
+    echo "Sesudah menggunakan metode array_values" . "<br>" ;
+
+    //metode array untuk mengubah keys nya atau value menjadi angka
+    print_r(array_keys($dataDiri)) . "<br>";
+    echo "Sesudah menggunakan metode array_keys" ;
+
+
     ?>
 </body>
 </html>
