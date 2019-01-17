@@ -14,8 +14,13 @@
                 "umur" => 17, 
                 "Pekerjaan" => "Pelajar",
     ];
-    print_r($dataDiri) ; 
-    echo "Sebelum menggunakan metode array_values dan array_keys" . "<br>" ;
+    $dataHarta = [
+                "laptop" => "Lenovo Ideapad", 
+                "Motor"  => "Yamaha"
+    ];
+    print_r($dataDiri) . "<br>";
+    print_r($dataHarta) . "<br>";
+    echo "Sebelum menggunakan metode array_values dan array_keys serta array_merge" . "<br>" ;
     
 
     //metode assosiatif array yang mengubah index pemanggilan array ke default yaitu berupa angka
@@ -24,7 +29,11 @@
 
     //metode array untuk mengubah keys nya atau value menjadi angka
     print_r(array_keys($dataDiri)) . "<br>";
-    echo "Sesudah menggunakan metode array_keys" ;
+    echo "Sesudah menggunakan metode array_keys" . "<br>" ;
+
+    //metode asosiatif array untuk menggabungkan dua buah array
+    print_r(array_merge($dataDiri, $dataHarta))  . "<br>";
+    echo "sesudah di merge" . "<br>";
 
 
     ?>
