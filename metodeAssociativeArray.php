@@ -14,11 +14,13 @@
                 "umur" => 17, 
                 "Pekerjaan" => "Pelajar",
     ];
-    //print_r($dataDiri);
-    //echo $dataDiri['nama'];
+    print_r($dataDiri) ; 
+    echo "Sebelum menggunakan metode array_values" . "<br>" ;
+    
 
     //metode assosiatif array yang mengubah index pemanggilan array ke default yaitu berupa angka
-    print_r(array_values($dataDiri));
+    print_r(array_values($dataDiri)) . "<br>";
+    echo "Sesudah menggunakan metode array_values" ;
     ?>
 </body>
 </html>
