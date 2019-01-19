@@ -6,10 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
 </head>
-<body>
-    <?php 
-    echo "Aku Belajar PHP!";
+    <?php
+    //Pengulangan di PHP atau Looping
+    // struktur for (nilai awal, syarat, perubahan)
+    for ($i=0; $i < 8 ; $i++) { 
+        echo "Ini diulang - Ulangan ke $i <br>";
+    }
     ?>
-    <p>Halo dunia</p>
-</body>
+
 </html>
