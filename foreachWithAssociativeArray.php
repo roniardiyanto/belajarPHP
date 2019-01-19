@@ -11,7 +11,7 @@
     //menggunakan foreach dengan asosiatif array
     $dataDiri = ['Nama' => 'Roni', 'Jenis Kelamin' => 'Laki - Laki', 'Umur' => 17, 'Hobi' => 'Ngoding'];
     foreach ($dataDiri as $dD => $info) {
-        echo $dD . "<br>";
+        echo "<b>" . $dD . "</b><br>";
         echo $info . "<br>";
     }
     ?>
