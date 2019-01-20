@@ -6,13 +6,17 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
 </head>
-<body>
+
     <?php
-    //Memanggil value array dengan mudah menggunakan perulangan
-    $posisi = ['Pertama', 'Kedua', 'Ketiga', 'Keempat', 'Kelima', 'Keenam', 'Ketujuh', 'Kedelapan'];
+    //Pengulangan di PHP atau Looping
+    // struktur for (nilai awal, syarat, perubahan)
+    //Mmemanggil array dengan mudah menggunakan pengulangan
+    $posisi = ['Pertama', 'Kedua', 'Ketiga', 'Keempat', 'Kelima','keenam', 'Ketujuh', 'Kedelapan'];
+
+    
     for ($i=0; $i < count($posisi) ; $i++) { 
-        echo "Ini Adalah Pemanggilan Nilai Array dengan Perulangan ke $posisi[$i] <br>";
+        echo "Ini diulang - Ulangan Posisi $posisi[$i] <br>";
     }
     ?>
-</body>
+
 </html>
