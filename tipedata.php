@@ -13,4 +13,7 @@
     echo $angka;
     echo $anglka2;
     echo $angka + $angka2;
+    //Tipe data boolean hanya ada 2
+    $boolean = true;
+    $boolean2 = false;
 ?>
