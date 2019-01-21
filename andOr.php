@@ -24,6 +24,28 @@
         } else {
             echo 'Raka tidak membeli barang apapun di toko karena uang raka tidak cukup <br>';
         }
+    //contoh penggunaan && atau and , yaitu syarat if jika dua syarat memenuhi maka akan dieksekusi
+
+    $uangRoni = 100000;
+    $hargaKanvas = 75000;
+    $hargaCat = 35000;
+    
+    if ($uangRoni > $hargaKanvas && $uangRoni > $hargaCat) {
+        echo 'Roni membeli kanvas dan cat <br>';
+    } else {
+        echo 'Roni tidak membeli apapun <br>';
+    }
+        //jika salah satu atau dua syarat tidak terpenuhi maka perintah tidak dapat dieksekusi
+
+    if ($uangRoni >= $hargaCat + $hargaKanvas && $hargaKanvas < $uangRoni) {
+        echo 'Roni membeli kanvas dan cat <br>';
+    } else {
+        echo 'Roni tidak membeli apapun <br>';
+    }
+      
+    
+    
+
             
     
     ?>
