@@ -8,6 +8,7 @@
 </head>
 <body>
     <?php
+    //scope atau global scope berfungsi agar variabel di luar function dapat digunakan didalam sebuah function itu sendiri
     $urutan = ["Pertama", "Kedua", "Ketiga", "Keempat", "Kelima", "Keenam"];
     shuffle($urutan);
     function panggilanPeserta($nama){
